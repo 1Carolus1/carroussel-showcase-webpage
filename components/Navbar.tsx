@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 export const Navbar = function Navbar() {
   const pathname = usePathname();
   return (
-    <header>
+    <header className="fixed top-0 left-0 right-0 z-50">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-1 py-4">
         <Link href="/" className="font-semibold tracking-wider">
           CARROUSSEL

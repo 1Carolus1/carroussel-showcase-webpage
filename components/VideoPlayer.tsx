@@ -1,0 +1,35 @@
+export const VideoPlayer = function VideoPlayer() {
+  return (
+    <div className="
+      absolute
+      inset-0
+      z-0
+      overflow-hidden
+      transition-opacity
+      duration-1000
+    ">
+      <video
+        className="
+          max-w-full
+          w-full
+          h-full
+          m-0
+          leading-none
+          border-0
+          align-baseline
+          object-cover
+        "
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+      >
+        <source
+          src="https://fabrykasocios.com/wp-content/uploads/2025/08/visuales-fabryka-opener.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+  );
+};
