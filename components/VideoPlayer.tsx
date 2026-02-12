@@ -1,7 +1,7 @@
 export const VideoPlayer = function VideoPlayer() {
   return (
     <div className="
-      absolute
+      fixed
       inset-0
       z-0
       overflow-hidden
