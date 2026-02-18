@@ -1,7 +1,8 @@
 'use client'
-import { TrackList } from "@/components/TrackList";
+import { TrackCard } from "@/components/TrackCard";
 import { SoundCloudTrackData } from "@/types/api/soundcloudTrackData";
 import { useEffect, useState } from "react";
+import './style.css';
 
   // soundcloud really doesn't provide a better way to fetch a list of tracks :<
   // next step: find a way to get the tracks data and store them in a database, update them every 24h
@@ -26,5 +27,9 @@ export default function Sets() {
     if (loading) {
       return null;
     }
-  return <TrackList tracks={sets}/>;
+  return (
+    <div className="track-list">
+      {sets.length > 0 && sets.map((sets) => <TrackCard key={sets.permanent_track_url} track={sets} />)}
+    </div>
+  );
 }
