@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { VideoPlayer } from "@/components/VideoPlayer";
+import { Providers } from "./providers";
+import { Player } from "@/components/Player";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,7 +22,10 @@ export default function RootLayout({
           <Navbar />
           <VideoPlayer />
           <div className="content-wrapper relative z-5 px-40 pt-40">
-            {children}
+            <Providers>
+              {children}
+              <Player/>
+            </Providers>
           </div>
         </div>
       </body>
