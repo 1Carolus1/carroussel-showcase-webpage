@@ -1,5 +1,5 @@
 import { SoundCloudTrackData } from "@/types/api/soundcloudTrackData";
-import { ClubPulse, TheTower } from "./club";
+import { ClubPulse, TheTower } from "./clubs";
 
 export const sets: SoundCloudTrackData[] = [
   {
