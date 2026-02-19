@@ -1,6 +1,0 @@
-.track-list {
-  display: grid;
-  grid-column-gap: 50px;
-  grid-row-gap: 40px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
