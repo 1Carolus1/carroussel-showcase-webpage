@@ -35,7 +35,6 @@ export async function GET(req: Request) {
       artist: data.artist,
       track_url: trackUrl,
       thumbnail_url: data.thumbnail_url,
-      html: data.html, // iframe embed
     } as SoundCloudTrackData);
   } catch (error) {
     return NextResponse.json({ error }, { status: 500 });
