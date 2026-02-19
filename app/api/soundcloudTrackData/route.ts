@@ -28,8 +28,6 @@ export async function GET(req: Request) {
 
     const data = await resolvedTrackData.json();
 
-    console.log(data);
-
     return NextResponse.json({
       title: data.title,
       artist: data.artist,
