@@ -10,24 +10,6 @@ interface Props {
 }
 export const TrackCard: FC<Props> = function TrackCard({ track }) {
   const { thumbnail_url,title, track_url, artist, artist_url } = track;
-  // const [isPlaying, setIsPlaying] = useState<boolean>();
-  // const playerData = usePlayer();
-
-  // const onPlayPauseButtonClicked = useCallback(
-  //   (value: boolean) => {
-  //     setIsPlaying(value);
-  //     if (playerData) {
-  //       const { setTrackHTML, setIsPlaying } = playerData;
-  //       if (value && meta?.html) {
-  //         setTrackHTML(meta?.html);
-  //         setIsPlaying(true);
-  //       } else if (!value) {
-  //         setIsPlaying(false);
-  //       }
-  //     }
-  //   },
-  //   [playerData, meta],
-  // );
 
   return (
     <div className="group relative overflow-hidden rounded-3xl bg-black/40 backdrop-blur-md shadow-[0_20px_60px_rgba(0,0,0,0.6)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_30px_80px_rgba(0,0,0,0.8)]">

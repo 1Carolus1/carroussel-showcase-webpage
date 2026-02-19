@@ -45,7 +45,7 @@ export default function RootLayout({
         <div className="min-h-dvh bg-black text-white">
           <Navbar />
           <VideoPlayer />
-          <div className="content-wrapper relative z-5 px-40 pt-30">
+          <div className="content-wrapper relative z-5 px-[10vw] pt-[10vh]">
             <Providers>
               {children}
               <Player/>
