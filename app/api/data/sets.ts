@@ -29,6 +29,15 @@ export const sets: SoundCloudTrackData[] = [
     thumbnail_url: 'https://i1.sndcdn.com/artworks-QiKiZkUYFjj1BPmX-CvqzqQ-t500x500.jpg',
     artist_url: 'https://soundcloud.com/carroussel_mp3',
   },
+  {
+    title: 'Neorave/hardgroove @8/2/25',
+    artist: '🎠Carroussel🎠',
+    club: null,
+    track_url: 'https://soundcloud.com/carroussel_mp3/neoravehardgroove-8225',
+    permanent_track_url: 'https://api.soundcloud.com/tracks/2141415036',
+    thumbnail_url: 'https://i1.sndcdn.com/avatars-ZhyGHgOk90l0yClt-whcPUQ-t500x500.jpg',
+    artist_url: 'https://soundcloud.com/carroussel_mp3',
+  },
 ] as const;
 
 //TODO: USE A DATABASE INSTEAD

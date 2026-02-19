@@ -6,6 +6,6 @@ export type SoundCloudTrackData = {
   track_url: string
   permanent_track_url: string
   thumbnail_url: string | undefined
-  club: Club
+  club?: Club | null
   artist_url: string
 };
