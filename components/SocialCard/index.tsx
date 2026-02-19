@@ -26,7 +26,16 @@ export const SocialCard: FC<Props> = function SocialCard({ title, url, subtitle 
         flex
         items-center justify-center
       `}
-      style={{ backgroundColor: getBackgroundColor(title) }}
+      style={{
+        background: `linear-gradient(
+          to left,
+          rgba(${getBackgroundColor(title)}, 0.60) 0%,
+          rgba(${getBackgroundColor(title)}, 0.45) 35%,
+          rgba(${getBackgroundColor(title)}, 0.30) 60%,
+          rgba(${getBackgroundColor(title)}, 0.25) 80%,
+          rgba(${getBackgroundColor(title)}, 0.15) 100%
+        )`,
+      }}
     >
       <div className="absolute inset-0">
         <SocialIcon title={title} />
@@ -49,22 +58,22 @@ export const SocialCard: FC<Props> = function SocialCard({ title, url, subtitle 
 const getBackgroundColor = (title: Social["title"]) => {
   switch (title) {
     case "X(Twitter)":
-      return "rgba(0,0,0,0.35)";
+      return "0,0,0";
     case "BlueSky":
-      return "rgba(29,161,242,0.35)";
+      return "29,161,242";
     case "Twitch":
-      return "rgba(145,70,255,0.35)";
+      return "145,70,255";
     case "YouTube":
-      return "rgba(255,0,0,0.35)";
+      return "255,0,0";
     case "SoundCloud":
-      return "rgba(255,85,0,0.35)";
+      return "255,85,0";
     case "Ko-Fi":
-      return "rgba(41,171,224,0.35)";
+      return "41,171,224";
     case "Discord":
-      return "rgba(114,137,218,0.35)";
+      return "114,137,218";
     case "Bandcamp":
-      return "rgba(98,154,169,0.35)";
+      return "98,154,169";
     default:
-      return "rgba(0,0,0,0.35)";
+      return "0,0,0";
   }
 };
