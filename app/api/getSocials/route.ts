@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import { sets } from "../data/sets";
+import { socials } from "../data/socials";
 
 //TODO: AUTOMATE THIS ROUTE
 export async function GET() {
-  return NextResponse.json(sets);
+  return NextResponse.json(socials);
 }

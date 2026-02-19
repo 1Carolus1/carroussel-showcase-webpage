@@ -10,7 +10,6 @@ export const sets: SoundCloudTrackData[] = [
     permanent_track_url: 'https://api.soundcloud.com/tracks/2258071883',
     thumbnail_url: 'https://i1.sndcdn.com/artworks-jsG3UbBpDGRadbmm-6PIzWw-t500x500.jpg',
     artist_url: 'https://soundcloud.com/carroussel_mp3',
-    html: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2258071883&show_artwork=true&maxheight=166"></iframe>',
   },
   {
     title: '1-24 1hr techno @ the tower',
@@ -20,7 +19,6 @@ export const sets: SoundCloudTrackData[] = [
     permanent_track_url: 'https://api.soundcloud.com/tracks/2253952178',
     thumbnail_url: 'https://i1.sndcdn.com/artworks-0gtfjNRef6oQGOI9-4x7O3g-t500x500.jpg',
     artist_url: 'https://soundcloud.com/carroussel_mp3',
-    html: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2253952178&show_artwork=true&maxheight=166"></iframe>',
   },
   {
     title: '1hr Hard Techno at the Tower 11/1/25',
@@ -30,7 +28,6 @@ export const sets: SoundCloudTrackData[] = [
     permanent_track_url: 'https://api.soundcloud.com/tracks/2205661539',
     thumbnail_url: 'https://i1.sndcdn.com/artworks-QiKiZkUYFjj1BPmX-CvqzqQ-t500x500.jpg',
     artist_url: 'https://soundcloud.com/carroussel_mp3',
-    html: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F2205661539&show_artwork=true&maxheight=166"></iframe>',
   },
 ] as const;
 
