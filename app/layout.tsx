@@ -31,10 +31,6 @@ export const metadata: Metadata = {
     description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
     images: ["/og.jpg"],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
   description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
 };
 
