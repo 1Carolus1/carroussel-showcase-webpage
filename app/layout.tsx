@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
     images: [
       {
-        url: "/og.jpg",
+        url: "https://dn5d2nyf6tdckidj.public.blob.vercel-storage.com/bg_videos/og.jpg",
         width: 1200,
         height: 630,
         alt: "Carroussel",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Carroussel",
     description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
-    images: ["/og.jpg"],
+    images: ["https://dn5d2nyf6tdckidj.public.blob.vercel-storage.com/bg_videos/og.jpg"],
   },
   description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
 };
