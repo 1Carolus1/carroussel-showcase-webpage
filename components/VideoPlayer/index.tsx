@@ -26,7 +26,7 @@ export const VideoPlayer = function VideoPlayer() {
         preload="metadata"
       >
         <source
-          src="https://fabrykasocios.com/wp-content/uploads/2025/08/visuales-fabryka-opener.mp4"
+          src="/visuals_higher_quality.mp4"
           type="video/mp4"
         />
       </video>
