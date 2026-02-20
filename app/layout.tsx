@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { VideoPlayer } from "@/components/VideoPlayer";
 import { Providers } from "./providers";
 import { Player } from "@/components/Player";
+import { Footer } from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -48,9 +49,10 @@ export default function RootLayout({
           <div className="content-wrapper relative z-5 px-[10vw] pt-[10vh]">
             <Providers>
               {children}
-              <Player/>
+              <Player />
             </Providers>
           </div>
+          <Footer />
         </div>
       </body>
     </html>

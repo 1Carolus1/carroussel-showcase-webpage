@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { memo, useState } from "react";
 
-export const Navbar = function Navbar() {
+export const Navbar = memo(function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -57,7 +57,7 @@ export const Navbar = function Navbar() {
       )}
     </header>
   );
-}
+})
 
 const navItems = [
   {
