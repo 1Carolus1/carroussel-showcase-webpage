@@ -26,7 +26,7 @@ export const VideoPlayer = function VideoPlayer() {
         preload="metadata"
       >
         <source
-          src="/visuals_higher_quality.mp4"
+          src="/visuals.mp4"
           type="video/mp4"
         />
       </video>
