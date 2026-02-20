@@ -26,7 +26,7 @@ export const VideoPlayer = function VideoPlayer() {
         preload="metadata"
       >
         <source
-          src="/visuals.mp4"
+          src="https://dn5d2nyf6tdckidj.public.blob.vercel-storage.com/bg_videos/visuals_higher_quality.mp4"
           type="video/mp4"
         />
       </video>
