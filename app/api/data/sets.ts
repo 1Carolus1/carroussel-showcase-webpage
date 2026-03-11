@@ -3,6 +3,15 @@ import { ClubPulse, TheTower } from "./clubs";
 
 export const sets: SoundCloudTrackData[] = [
   {
+    title: 'Hard Techno Set @ The Shop x Tower 3/8/26',
+    artist: '🎠Carroussel🎠',
+    club: TheTower,
+    track_url: 'https://soundcloud.com/carroussel_mp3/hard-techno-set-the-shop-x',
+    permanent_track_url: 'https://api.soundcloud.com/tracks/2279608871,',
+    thumbnail_url: 'https://i1.sndcdn.com/artworks-eNAxOfuxUmBhq6RV-nzTbLQ-t500x500.jpg',
+    artist_url: 'https://soundcloud.com/carroussel_mp3',
+  },
+  {
     title: 'All Good Girls Go to Rave(1-31-26 @ pulse VR)',
     artist: '🎠Carroussel🎠',
     club: ClubPulse,
