@@ -35,11 +35,7 @@ export const metadata: Metadata = {
   description: "Carroussel is a DJ/producer based in Madrid, Spain. This is their official website, where you can find their music, and social media links.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className="antialiased">
