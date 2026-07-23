@@ -1,51 +1,80 @@
 import { SoundCloudTrackData } from "@/types/api/soundcloudTrackData";
-import { ClubPulse, TheTower } from "./clubs";
+import { ClubPulse, Contain, Gamers, TheTower } from "./clubs";
 
 export const sets: SoundCloudTrackData[] = [
   {
-    title: 'Hard Techno Set @ The Shop x Tower 3/8/26',
-    artist: '🎠Carroussel🎠',
-    club: TheTower,
-    track_url: 'https://soundcloud.com/carroussel_mp3/hard-techno-set-the-shop-x',
-    permanent_track_url: 'https://api.soundcloud.com/tracks/2279608871,',
-    thumbnail_url: 'https://i1.sndcdn.com/artworks-eNAxOfuxUmBhq6RV-nzTbLQ-t500x500.jpg',
-    artist_url: 'https://soundcloud.com/carroussel_mp3',
+    title: "Contain aftersss - July 11, 2026",
+    artist: "🎠Carroussel🎠",
+    club: Contain,
+    track_url:
+      "https://soundcloud.com/carroussel_mp3/contain-aftersss-july-11-2026",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2F2358839873",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-xE6Kjq73qhBBUoed-S0p93g-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
   },
   {
-    title: 'All Good Girls Go to Rave(1-31-26 @ pulse VR)',
-    artist: '🎠Carroussel🎠',
-    club: ClubPulse,
-    track_url: 'https://soundcloud.com/carroussel_mp3/1-31-26-at-pulse',
-    permanent_track_url: 'https://api.soundcloud.com/tracks/2258071883',
-    thumbnail_url: 'https://i1.sndcdn.com/artworks-jsG3UbBpDGRadbmm-6PIzWw-t500x500.jpg',
-    artist_url: 'https://soundcloud.com/carroussel_mp3',
-  },
-  {
-    title: '1-24 1hr techno @ the tower',
-    artist: '🎠Carroussel🎠',
-    club: TheTower,
-    track_url: 'https://soundcloud.com/carroussel_mp3/1-24-1hr-techno-the-tower',
-    permanent_track_url: 'https://api.soundcloud.com/tracks/2253952178',
-    thumbnail_url: 'https://i1.sndcdn.com/artworks-0gtfjNRef6oQGOI9-4x7O3g-t500x500.jpg',
-    artist_url: 'https://soundcloud.com/carroussel_mp3',
-  },
-  {
-    title: '1hr Hard Techno at the Tower 11/1/25',
-    artist: '🎠Carroussel🎠',
-    club: TheTower,
-    track_url: 'https://soundcloud.com/carroussel_mp3/1hr-hard-techno-at-the-tower-11125',
-    permanent_track_url: 'https://api.soundcloud.com/tracks/2205661539',
-    thumbnail_url: 'https://i1.sndcdn.com/artworks-QiKiZkUYFjj1BPmX-CvqzqQ-t500x500.jpg',
-    artist_url: 'https://soundcloud.com/carroussel_mp3',
-  },
-  {
-    title: 'Neorave/hardgroove @8/2/25',
-    artist: '🎠Carroussel🎠',
+    title: "40 min D&B set @ absorb 11 july - 2026",
+    artist: "🎠Carroussel🎠",
     club: null,
-    track_url: 'https://soundcloud.com/carroussel_mp3/neoravehardgroove-8225',
-    permanent_track_url: 'https://api.soundcloud.com/tracks/2141415036',
-    thumbnail_url: 'https://i1.sndcdn.com/avatars-ZhyGHgOk90l0yClt-whcPUQ-t500x500.jpg',
-    artist_url: 'https://soundcloud.com/carroussel_mp3',
+    track_url: "https://soundcloud.com/carroussel_mp3/dnb-absorb-11-july-2026",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2F2358857501",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-KzmENeH55uNRDozR-LsDwPA-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
+  },
+  {
+    title: "Hard Techno Set @ The Shop x Tower 3/8/26",
+    artist: "🎠Carroussel🎠",
+    club: TheTower,
+    track_url:
+      "https://soundcloud.com/carroussel_mp3/hard-techno-set-the-shop-x",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2279608871,",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-eNAxOfuxUmBhq6RV-nzTbLQ-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
+  },
+  {
+    title: "All Good Girls Go to Rave(1-31-26 @ pulse VR)",
+    artist: "🎠Carroussel🎠",
+    club: ClubPulse,
+    track_url: "https://soundcloud.com/carroussel_mp3/1-31-26-at-pulse",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2258071883",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-jsG3UbBpDGRadbmm-6PIzWw-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
+  },
+  {
+    title: "1-24 1hr techno @ the tower",
+    artist: "🎠Carroussel🎠",
+    club: TheTower,
+    track_url:
+      "https://soundcloud.com/carroussel_mp3/1-24-1hr-techno-the-tower",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2253952178",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-0gtfjNRef6oQGOI9-4x7O3g-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
+  },
+  {
+    title: "1hr Hard Techno at the Tower 11/1/25",
+    artist: "🎠Carroussel🎠",
+    club: TheTower,
+    track_url:
+      "https://soundcloud.com/carroussel_mp3/1hr-hard-techno-at-the-tower-11125",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2205661539",
+    thumbnail_url:
+      "https://i1.sndcdn.com/artworks-QiKiZkUYFjj1BPmX-CvqzqQ-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
+  },
+  {
+    title: "Neorave/hardgroove @8/2/25",
+    artist: "🎠Carroussel🎠",
+    club: null,
+    track_url: "https://soundcloud.com/carroussel_mp3/neoravehardgroove-8225",
+    permanent_track_url: "https://api.soundcloud.com/tracks/2141415036",
+    thumbnail_url:
+      "https://i1.sndcdn.com/avatars-ZhyGHgOk90l0yClt-whcPUQ-t500x500.jpg",
+    artist_url: "https://soundcloud.com/carroussel_mp3",
   },
 ] as const;
 
