@@ -73,7 +73,7 @@ export const sets: SoundCloudTrackData[] = [
     track_url: "https://soundcloud.com/carroussel_mp3/neoravehardgroove-8225",
     permanent_track_url: "https://api.soundcloud.com/tracks/2141415036",
     thumbnail_url:
-      "https://i1.sndcdn.com/avatars-ZhyGHgOk90l0yClt-whcPUQ-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-DVcmzn9L42IRYS37-n6llPA-t500x500.jpg",
     artist_url: "https://soundcloud.com/carroussel_mp3",
   },
 ] as const;
