@@ -1,4 +1,9 @@
+'use client';
+import { usePathname } from "next/navigation";
+
 export const VideoPlayer = function VideoPlayer() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   return (
     <div className="
       fixed
@@ -10,14 +15,14 @@ export const VideoPlayer = function VideoPlayer() {
     ">
       <video
         className="
-          max-w-full
           w-full
           h-full
           m-0
           leading-none
           border-0
           align-baseline
-          object-cover
+          object-contain
+          scale-[0.9]
         "
         autoPlay
         muted
@@ -30,6 +35,13 @@ export const VideoPlayer = function VideoPlayer() {
           type="video/mp4"
         />
       </video>
+      <div
+        className={`
+          absolute
+          inset-0
+          ${isHome ? "" : "backdrop-blur-[2px]"}
+        `}
+      />
     </div>
   );
 };
