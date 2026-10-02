@@ -15,13 +15,11 @@ export const Footer = memo(function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="
-            text-sm tracking-[0.2em] opacity-90 hover:opacity-100 bold text-red
-          "
+          className="flex h-6 w-6 items-center justify-center text-white/60 hover:text-white"
         >
           <svg
-            viewBox="0 0 24 24"
-            className="h-5 w-5"
+            viewBox="0 0 16 16"
+            className="h-4 w-4"
             fill="currentColor"
             aria-hidden="true"
           >
